@@ -12,7 +12,6 @@ const countLetters = function(str) {
     } else {
       results[letter] = 1;
     }
-    console.log('monkey', results[letter]);
   }
   return results;
 };
