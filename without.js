@@ -20,7 +20,7 @@ const without = function(source, itemsToRemove) {
     for (let i = 0; i < itemsToRemove.length; i++) {
       if (source[s] === itemsToRemove[i]) {
         source.splice(s, 1);
-        console.log(source);
+        //console.log(source);
       }
     }
   }
