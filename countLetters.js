@@ -1,8 +1,3 @@
-// implement the function
-const assertEqual = function(actual, expected) {
-  return (actual === expected) ? console.log(`✅✅✅Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`);
-};
-
 const countLetters = function(str) {
   str = str.split(' ').join('');
   let results = {};
@@ -16,4 +11,4 @@ const countLetters = function(str) {
   return results;
 };
 
-console.log(countLetters("A new string value for our original string property"));
+module.exports = countLetters;
